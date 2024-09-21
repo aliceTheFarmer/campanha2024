@@ -1,29 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Foto</title>
+    <title>Alice Sippert - Vereadora 50150</title>
     <style>
         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        .header {
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0; /* Cor de fundo para melhor contraste */
+            background-color: #7a3db6;
+            padding: 10px 20px;
         }
-        img {
+
+        .banner {
             max-width: 100%;
-            max-height: 100%;
-            object-fit: contain; /* Mantém a proporção da imagem e a centraliza */
-            border: 5px solid #fff; /* Bordas opcionais para destacar a imagem */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para um efeito visual mais agradável */
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #ffcc00;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            color: #5c2d91;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #5c2d91;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 15px;
+            }
         }
     </style>
 </head>
+
 <body>
-    <img src="https://github.com/aliceTheFarmer/campanha2024/blob/main/imagem.png?raw=true" alt="Minha Foto">
+
+    <header class="header">
+        <img src="banner.png" alt="Banner Alice Sippert" class="banner">
+    </header>
+
+    <div class="main-container">
+        <section class="section">
+            <h2>Quem é Alice Sippert?</h2>
+            <p>Alice Sippert, 38 anos, é psicóloga, psicanalista e servidora pública. Na Fundação de Atendimento
+                Socioeducativo do Rio Grande do Sul (Fase), trabalhou diretamente com adolescentes em medidas
+                socioeducativas, conhecendo profundamente os problemas do sistema e os desafios enfrentados pelos
+                servidores.</p>
+        </section>
+
+        <section class="section">
+            <h2>Trajetória e Compromissos</h2>
+            <p>Reconhecida por "não saber a hora de ficar quieta" e muitas vezes chamada de "a chata do grupo de WhatsApp",
+                Alice denunciou todos os abusos que vivenciou ou presenciou com seus colegas. Ela é o pesadelo de qualquer
+                gestão que não esteja comprometida com um trabalho sério e transparente!</p>
+            <p>Como vereadora de Porto Alegre, Alice pretende continuar sua luta por uma gestão pública de qualidade,
+                defendendo os direitos de servidores e da população com transparência e integridade.</p>
+        </section>
+
+        <section class="section">
+            <h2>Propostas de Mandato</h2>
+            <p>Alice é uma defensora ativa dos direitos da comunidade LGBTQIAPN+, à qual pertence, e trabalha para garantir
+                a inclusão e o respeito dentro das políticas públicas. Além disso, suas propostas incluem:</p>
+            <ul>
+                <li>Defesa de um serviço público de qualidade para todos.</li>
+                <li>Melhoria das relações entre patrão e proletário, no setor público e privado.</li>
+                <li>Inserção de metodologias contemporâneas e tecnológicas no trabalho e na educação.</li>
+                <li>Combate às fake news e promoção do letramento digital, especialmente para idosos.</li>
+                <li>Incentivo aos Esports e inclusão digital nas escolas municipais.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Cultura e Inclusão Digital</h2>
+            <p>Identificada com a cultura nerd, geek e otaku, Alice também é uma grande entusiasta da revolução
+                cultural-digital, defendendo a inclusão de novas tecnologias no dia a dia dos cidadãos, especialmente nas
+                áreas de educação e formação profissional.</p>
+            <p>Alice acredita que a educação digital é essencial para preparar a sociedade para o futuro, tornando Porto
+                Alegre uma cidade mais conectada e inovadora.</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Saiba mais em: <a href="https://www.facebook.com/a.sippert" target="_blank">Facebook</a></p>
+    </footer>
+
 </body>
+
 </html>
